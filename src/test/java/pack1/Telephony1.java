@@ -34,6 +34,7 @@ public class Telephony1 {
 	public void DialTelephonyTest() {
 		System.out.println("Inside DialTelephonyTest");
 		rep1 = NewExtentHtmlManager.ExtentRep();
+		System.out.println("Learning git");
 		
 		ExtentTest test1 = rep1.createTest("DialTelephonyTest");
 		test1.log(Status.INFO, "DialTelephonyTest started");
