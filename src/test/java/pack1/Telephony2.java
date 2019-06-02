@@ -27,6 +27,9 @@ public class Telephony2 {
 		
 		ExtentReports rep1 = NewExtentHtmlManager.ExtentRep();
 		
+		
+		System.out.println("Learning git");
+		
 		ExtentTest test1 = rep1.createTest("DisConnectTelephonyTest");
 		test1.log(Status.INFO, "DisConnectTelephonyTest started");
 		
